@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 /*/////FONTS/////*/
 body{
-  background-color: #1d2731;
-  color: #d9b310;
+  background-color: #1d2731 !important;
+  color: #d9b310 !important;
 }
 
 .jumbotron {
@@ -206,17 +206,17 @@ background-repeat: no-repeat;
   padding: 15px;
 }
 .btn-primary{
-  text-align: center;
-  width: 100%;
-background-color: #c0b283;
-border: 1pt solid #f4f4f4;
-  color: white;
+  text-align: center !important;
+  width: 100% !important;
+background-color: #c0b283 !important;
+border: 1pt solid #f4f4f4 !important;
+  color: white !important;
 
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #373737;
-    background-color: #d9b310;
-    border-color: #f4f4f4; /*set the color you want here*/
+    color: #373737 !important;
+    background-color: #d9b310 !important;
+    border-color: #f4f4f4 !important; /*set the color you want here*/
 }
 .tab-pane{
 text-decoration: none;

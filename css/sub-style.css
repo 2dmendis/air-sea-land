@@ -1,5 +1,5 @@
 body{
-    background-color: #8eaebd;
+    background-color: #8eaebd !important;
   }
   #topHeading{
     color: white;
@@ -12,7 +12,7 @@ body{
 }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
-      margin-bottom: 0;
+      margin-bottom: 0 !important;
       border-radius: 0;
     }
     
