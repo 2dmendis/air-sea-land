@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+/*/////FONTS/////*/
+body{
+  background-color: #1d2731;
+  color: #d9b310;
+}
+
+.jumbotron {
+  background-color: #a31919;
+  
+  color: white;
+  border-style: solid;
+  border-color: #baa016;
+}
+.img-responsive {
+  
+}
+.ASL-Example1 {
+ 
+  padding-top: 10px;
+  padding-left: 20px;
+  
+}
+.testChangeColor {
+ 
+}
+.button-row{
+  margin: 0px;
+  padding: 0px;
+}
+.slide1{
+  background-image: url("images/newASL1.jpg");
+  //background-color: blue;
+  background-color: #328cc1;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.slide2{
+  background-image: url("images/newASL2.jpg");
+  background-color: #328cc1;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.slide3{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1200px-Flag_of_the_United_Nations.svg.png");
+   background-color: #328cc1;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.slide4{
+  //background-image: url("https://wallpaperscraft.com/image/cell_background_line_light_texture_50752_1920x1080.jpg");
+   //background-color: #000033;
+  background-color: #328cc1;
+  //background-color: #dcd0c0;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 10pt;
+}
+.slide5{
+  //background-image: url("https://wallpaperscraft.com/image/cell_background_line_light_texture_50752_1920x1080.jpg");
+   //background-color: #000033;
+  background-color: #328cc1;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+font-size: 10pt;
+  
+}
+.slide6{
+  //background-image: url("https://wallpaperscraft.com/image/cell_background_line_light_texture_50752_1920x1080.jpg");
+   //background-color: #000033;
+  background-color: #328cc1;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 10pt;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //background-color: #000073;
+  //background-color: #000033;
+  background-color: #303030;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  margin: 0px 5px 0px 5px;
+}
+
+li a:hover:not(.active) {
+    background-color: #dddddd;
+}
+
+.active {
+    //background-color: #000073;
+}
+.title-special{
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  //font-style: oblique;
+}
+.content-container1{
+  background-image: url("https://thumbs.dreamstime.com/b/cardboard-boxes-background-brown-color-13858202.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-color: #dddddd;
+  height: 400px;
+  color: white;
+}
+.content-container2{
+  background-image: url("https://ak9.picdn.net/shutterstock/videos/11181899/thumb/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #717171;
+  height: 400px;
+}
+.content-container3{
+  background-image: url("https://www.neuromd.us/wp-content/uploads/2014/08/Wood-Background-Pictures-Free-Download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000073;
+  height: 200px;
+}
+.content-container4{
+  background-image: url("https://i0.wp.com/superiorfireinc.com/wp-content/uploads/2016/04/sunbeam-wallpapers-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000073;
+  height: 400px;
+  //border-radius: 30px;
+}
+.content-container5{
+  //This is the Welcome box 
+ //background-color:blue;
+  //background-color: #303030;
+  //background-color: #0b3c5d;
+  background-color: #0b3c5d;
+  //background-color: #f5f5dc;
+  height: 400px;
+  //font-family: "Times New Roman", Times, serif;
+  //text-decoration: underline;
+}
+.content-container6{
+  //background-image: url("https://i0.wp.com/superiorfireinc.com/wp-content/uploads/2016/04/sunbeam-wallpapers-7.jpg");
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  //background-color: #303030;
+  background-color: white;
+  height: 300px;
+}
+.relocation-text {
+  border-style: solid;
+  border-width: .2px;
+  border-color: #00007a;
+  //background-color: #00007a;
+  background-color: white;
+  box-shadow: 5px 5px 10px #00007a, 5px 5px 10px white;
+  padding:10px;
+  margin-left:10px;
+  margin-right: 10px;
+}
+.relocation-image-container{
+  background-color: #000073;
+  height: 250px;
+  padding: 10px;
+}
+.relocation-image{
+  background-color:white;
+  height: 100%;
+  background-image: url("http://www.somervillepromovers.com/wp-content/uploads/2016/08/5-sommerville-office-industrial-commercial-moving-service.jpeg");
+background-repeat: no-repeat;
+ 
+}
+.relocation-button {
+  padding: 30px
+}
+.staff-text{
+  padding: 10px;
+}
+.staff-button{
+  padding: 15px;
+}
+.btn-primary{
+  text-align: center;
+  width: 100%;
+background-color: #c0b283;
+border: 1pt solid #f4f4f4;
+  color: white;
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #373737;
+    background-color: #d9b310;
+    border-color: #f4f4f4; /*set the color you want here*/
+}
+.tab-pane{
+text-decoration: none;
+}
+.well{
+color: black;
+}
+.container-fluid #cust-review{
+  clear: both;
+}
+.clearfix:after{
+Content: “.”;
+Display: block;
+Clear: both;
+Visibility: hidden;
+Height: 0;
+Line-height: 0;
+}
+
+#asl-title-text{
+  font-family: 'Libre Baskerville', serif;
+}
+
+  #contText{
+    margin: 0px 20px 0px 20px;
+  }
+  #menu1{
+    padding: 20px;
+  }
+  #menu2{
+    padding: 20px;
+  }
+  #menu3{
+    padding: 20px;
+  }
+  #quoteArea{
+    text-align: center;
+  }
+  #contentBox{
+    border-radius: 70px;
+  }
+  #whatWeDo{
+    font-size: 22pt;
+  }
+  #bottomNav{
+    background-color: #0b3c5d;
+    //background-color: #0b3c5d;
+    
+  }
