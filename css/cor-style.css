@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
    body{
-    background-color: #e5e1ce !important;
+    background-color: #e5e1ce;
   }
   #topHeading{
     color: black;
@@ -12,9 +12,12 @@
 .topContent{
 
 }
+.push-down{
+    margin-top: 50px;
+  }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
-      margin-bottom: 0 !important;
+      margin-bottom: 5px !important;
       border-radius: 0;
     }
     
@@ -48,7 +51,7 @@
     }
   
   .slide1{
-  background-image: url("images/newASL1.jpg");
+  background-image: url("/images/Corporate-moving.jpg");
   //background-color: blue;
   background-color: #328cc1;
   height: 250px;
@@ -58,7 +61,7 @@
   
 }
   .slide2{
-  background-image: url("images/newASL2.jpg");
+  background-image: url("/images/corporate-relocation.jpg");
   background-color: #328cc1;
   height: 250px;
   background-repeat: no-repeat;
@@ -66,15 +69,7 @@
   background-size: cover;
   
 }
-  .slide3{
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1200px-Flag_of_the_United_Nations.svg.png");
-   background-color: #328cc1;
-  height: 250px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
-}
+ 
       .btn-primary {
     background: #67aeca;
     color: #ffffff;
