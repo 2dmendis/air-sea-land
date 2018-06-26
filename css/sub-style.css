@@ -56,7 +56,7 @@ body{
     }
   
   .slide1{
-  background-image: url("http://ceaprojects.com/wp-content/uploads/2016/01/Laem-Chabang-Port-1.jpg");
+  background-image: url("/images/Laem-Chabang-Port-1.jpg");
   //background-color: blue;
   background-color: #328cc1;
   height: 250px;
@@ -75,7 +75,7 @@ body{
   
 }
   .slide3{
-  background-image: url("http://www.gwwlogistics.com/images/news/4012-freight-fowarder-industry.png");
+  background-image: url("/images/4012-freight-fowarder-industry.png");
    background-color: #328cc1;
   height: 250px;
   background-repeat: no-repeat;

@@ -30,7 +30,7 @@ body{
   padding: 0px;
 }
 .slide1{
-  background-image: url("images/newASL1.jpg");
+  background-image: url("/images/ocean-freight-mts-2017.jpg");
   //background-color: blue;
   background-color: #328cc1;
   height: 450px;
@@ -40,7 +40,7 @@ body{
   
 }
 .slide2{
-  background-image: url("images/newASL2.jpg");
+  background-image: url("/images/corporate-transfers770x480-770x480.jpg");
   background-color: #328cc1;
   height: 450px;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body{
   
 }
 .slide3{
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1200px-Flag_of_the_United_Nations.svg.png");
+  background-image: url("/images/UN-CAJ-News-Africa.jpg");
    background-color: #328cc1;
   height: 450px;
   background-repeat: no-repeat;
