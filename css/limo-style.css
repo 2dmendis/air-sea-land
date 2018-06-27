@@ -1,0 +1,28 @@
+/*////GENERAL////*/
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*////NAVBAR////*/
+.navbar {
+      margin-bottom: 0 !important;
+      border-radius: 0;
+    }
+    
+
+   /*////FOOTER////*/
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    /*////CONTENT BARS////*/
+    .side-bar{
+      height: 400px;
+      background: #003366 ;
+    }
+    .center-bar{
+      height: 400px;
+    }
