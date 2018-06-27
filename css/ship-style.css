@@ -1,0 +1,67 @@
+body{
+  background: #003366 !important;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+section{
+  background: white;
+  border-radius: 30px;
+}
+
+.jumbotron img{
+  width: 100%;
+  z-index: 0;
+}
+
+#center-text{
+  text-align: center;
+  color: white;
+}
+.wrapper {
+	width: 960px;
+	margin-top: 0px !important;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px 45px 20px;
+}
+
+.shadow{
+    box-shadow: 7px 0px 30px #bbb;
+}
+
+.navbar {
+      margin-bottom: 0 !important;
+      border-radius: 0;
+    }
+    
+    
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0 !important;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+[class*="col-"] {
+  margin-left: 2%;
+  border-radius: 30px;
+}
+[class*="col-"]:hover {
+  border: 2px solid red;
+}
