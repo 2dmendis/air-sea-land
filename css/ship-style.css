@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 /*////NAVBAR////*/
 .navbar {
       margin-bottom: 0 !important;
@@ -16,9 +17,18 @@
     /*/////TEXT/////*/
     
     #title-text{
+      
       text-align: center;
       font-family: 'Libre Baskerville', serif;
     }
+    #title-text:hover{
+      color: #94bdd6;
+    }
+    
+    #jumbo-text{
+      color: white;
+    }
+    
     
 
    /*////FOOTER////*/
@@ -32,9 +42,51 @@
       margin-top: 50px !important;
     }
     .side-bar{
-      height: 400px;
+      height: 1000px;
       background: #003366 ;
     }
     .center-bar{
-      height: 400px;
+      height: 1000px;
     }
+    .clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+/*/////CONTENT//////*/
+section{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+}
+.mid-text{
+  text-align: center;
+  color: red;
+  font-family: 'Libre Baskerville', serif;
+}
+.mid-box{
+  text-align: center;
+    border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+  margin: 5px;
+}
+.mid-box:hover{
+  border-style: none;
+  background: #cbdfeb !important;
+}
+.center-boxes{
+  text-align: center;
+}
+.jumbotron{
+  width: 75%;
+  background-image: url("/images/4012-freight-fowarder-industry.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
