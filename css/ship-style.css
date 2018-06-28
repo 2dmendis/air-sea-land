@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Libre+Baskerville');
 
 /*////GENERAL////*/
 *{
@@ -56,13 +56,24 @@
   height: 0;
   line-height: 0;
 }
+
+#bbb-logo{
+  width: 15%;
+}
 /*/////CONTENT//////*/
 section{
   border-style: solid;
   border-color: black;
   border-width: 1px;
-  padding: 5px;
+  padding: 8px;
+  
 }
+section:hover{
+  font-family: 'Comfortaa', cursive;
+  border-style: none;
+  background: #cbdfeb !important;
+}
+
 .mid-text{
   text-align: center;
   color: red;
@@ -79,6 +90,7 @@ section{
 .mid-box:hover{
   border-style: none;
   background: #cbdfeb !important;
+  font-family: 'Comfortaa', cursive;
 }
 .center-boxes{
   text-align: center;
