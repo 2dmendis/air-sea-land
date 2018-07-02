@@ -38,6 +38,9 @@
       padding: 25px;
     }
     /*////CONTENT BARS////*/
+    .well{
+      margin-top: 20px;
+    }
     .body-start{
       margin-top: 50px !important;
     }
@@ -59,6 +62,11 @@
 
 #bbb-logo{
   width: 15%;
+  margin-top: 50px;
+}
+#iam-logo{
+  width: 15%;
+  margin-top: 50px;
 }
 /*/////CONTENT//////*/
 section{

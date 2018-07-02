@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>ASL Travel</title>
+  <title>ASL Shipping and Moving</title>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
-    <link rel="stylesheet" href="css/travel-style.css">
+    <link rel="stylesheet" href="css/ship-style.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -34,16 +34,88 @@
   </nav>
   <!--END OF NAV-->
   
- <div class="container-fluid">
+ <div class="container-fluid body-start">
    <div class="row">
      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 side-bar"><!--SIDE BAR-->
+       <div class="well">
+         <p>We will add some content here! Try to make it at least 2 sentences.</p>
+       </div>
        
+       <div class="well">
+         <p>We will add some content here! Try to make it at least 2 sentences.</p>
+       </div>
      </div>
-     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 center-bar"><!--MAIN CONTENT-->
-       <h1>Air Sea Land Travel</h1>
+     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 center-bar clearfix"> <!--MAIN CONTENT-->
+     <div class="container">
+        <div class="jumbotron">
+          <h1 id=jumbo-text>Celebrating 20 years of quality service</h1>      
+          
+        </div>
+     
+      </div>
+       <h1 id="title-text">Air Sea Land Shipping and Moving Inc.</h1>
+       <hr>
+       <br>
+       
+       <!--TESTING-->
+       <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#home">Why ASL</a></li>
+    <li><a data-toggle="pill" href="#menu1">About Us</a></li>
+    
+    
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2 class="mid-text">Why Air Sea Land?</h2>
+       <div class="row center-boxes">
+         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 mid-box">
+           <p><strong>Customer Service</strong></p>
+           <p>For 20 years, Air Sea Land Shipping and Moving Inc., has been providing top of the line service to make sure all of their clients are fully satisfied with their service. The customers always come first.</p>
+         </div>
+         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 mid-box">
+           <p><strong>Experience</strong></p>
+           <p>The experience that our field team, and office managers have acquired over the past two decades is incomparible. Air Sea Land not only moves your belongings from one location to another, but they provide a service that makes you feel happy to have chose them. That feeling only comes with years of quality experience that only Air Sea Land can provide.</p>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 mid-box">
+           <p><strong>Communication</strong></p>
+           <p>When you choose Air Sea Land to help you move your belongings, you are choosing an experience that guides you through every step of the way. Clients never feel left in the dark because every process of the move is laid out in front to make the entire experience as painless as possible.</p>
+         </div>
+       </div>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2 class="mid-text">About Air Sea Land</h2><br>
+      <section><p>Air Sea Land Shipping and Moving Inc. offers end-to-end moving services that ensure that our customers are taken care of every step of the way, regardless of the type or size of the shipment. Our staff handles every aspect of the move, from the initial packing all the way to delivery and unpacking at the final destination residence.</p>
+       <p>For over 20 years we have been providing excellent service, by moving people to their destination, quickly and hassle free. Experience the great service we provide, today! Hit the 'Get a Quote' button at the bottom of this page to get started.</p></section><br>
+    </div>
+    
+    
+  </div>
+       <!--END OF TESTING-->
+       
+       <br>
+       
+       
+       <h2 class="mid-text">Request a Quote!</h2>
+       <button type="button" id="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Request A Quote</button>
+      <div id="demo" class="collapse">
+        <p></p><center>
+        <form action="testNewMail.php" method="POST">
+          <p>Name</p> <input type="text" name="name">
+          <p>Email</p> <input type="text" name="email">
+          <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+          <input type="submit" value="Send"><input type="reset" value="Clear">
+        </form></center>
+      </div>
      </div>
      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 side-bar"><!--SIDE BAR-->
-       
+       <div class="container">
+         <img src="/images/bbb-logo-comedy-guys-defensive-driving.png" alt="betterbb-logo" title="bbb a+ rating" id="bbb-logo">
+       </div>
+        <br>
+       <div class="container">
+         <img src="/images/IAM_Blue.jpg" alt="IAM_logo" title="IAM" id="iam-logo">
+       </div>
      </div>
    </div>
  </div>
@@ -51,11 +123,10 @@
 
 
 <footer class="container-fluid text-center">
-  <p>Online Store Copyright</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
-  </form>
+  <p>Air Sea Land Group of Companies</p>  
+  <p>211 East 43rd Street</p>
+  <p>NY, New York 10017</p>
+  <p>212 983 8886</p>
 </footer>
 
 </body>
