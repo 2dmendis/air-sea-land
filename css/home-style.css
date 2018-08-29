@@ -269,3 +269,23 @@ Line-height: 0;
     //background-color: #0b3c5d;
 
   }
+  #popup-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+  }
+  #popup-main-div{
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -250px;
+  }
