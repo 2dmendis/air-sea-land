@@ -321,3 +321,8 @@ Line-height: 0;
     top: 50%;
 
   }
+  @media only screen and (max-width: 600px) {
+    #cust-review{
+      display: none;
+    }
+    }
