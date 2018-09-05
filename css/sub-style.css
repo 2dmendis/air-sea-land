@@ -3,7 +3,7 @@
 body{
     background-color: #8eaebd;
   }
-  
+
   section{
     width: 100%;
   }
@@ -20,15 +20,15 @@ body{
 .topContent{
 
 }
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 0 !important;
       border-radius: 0;
     }
-    
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 450px}
-    
+
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
@@ -38,23 +38,28 @@ body{
       height: 220%;
 
     }
-    
+
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
       padding: 15px;
     }
-    
+
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
         height: auto;
         padding: 15px;
       }
-      .row.content {height:auto;} 
+      .row.content {height:auto;}
     }
-  
+    @media only screen and (max-width: 600px) {
+      .navbar{
+        
+      }
+      }
+
   .slide1{
   background-image: url("/images/Laem-Chabang-Port-1.jpg");
   //background-color: blue;
@@ -63,7 +68,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
   .slide2{
   background-image: url("/images/CEA-Project-Logistics-Freight-Forwarding-Main-Image.jpg");
@@ -72,7 +77,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
   .slide3{
   background-image: url("/images/4012-freight-fowarder-industry.png");
@@ -81,7 +86,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
       .btn-primary {
     background: #67aeca;
@@ -91,7 +96,7 @@ body{
     .btn-primary:active, .btn-primary.active {
     background: #007299;
     box-shadow: none;
-      
+
 }
     .btn-primary:hover{
     background: #ffffff;
