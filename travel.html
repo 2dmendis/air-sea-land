@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>ASL Travel</title>
+  <title>Air Sea Land Travel</title>
+
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
-    <link rel="stylesheet" href="css/ship-style.css">
+    <!-- <link rel="stylesheet" href="css/cor-style.css"> -->
+    <link rel="stylesheet" href="css/travel-style.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -16,116 +18,148 @@
         <script src="js/bootstrap.min.js"></script>
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 </head>
+
 <body>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
         <a class="navbar-brand" href="index.html">
           <img src="/images/loooooogooo.png" width="30px" alt="asl-globe" title="Air Sea Land Globe">
         </a>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="freight-forwarding.html">Freight Forwarding</a></li>
-        <li><a href="corporate-relocation.html">Relocations</a></li>
-        <li class="active"><a href="diplomatic-service.html">Diplomatic Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="freight-forwarding.html">Freight Forwarding</a></li>
+                <li class="active"><a href="diplomatic-service.html">Diplomatic Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </div>
   </nav>
-  <!--END OF NAV-->
 
- <div class="container-fluid body-start">
-   <div class="row">
-     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 side-bar"><!--SIDE BAR-->
-       <div class="well">
-         <p>Air Sea Land Group of Companies have been serving excellence since 1998!</p>
-       </div>
 
-       <div class="well">
-         <p>Call us at (212) 983 8886, to learn more about how we can help you with your travel plans!</p>
-       </div>
-     </div>
-     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 center-bar clearfix"> <!--MAIN CONTENT-->
-     <div class="container">
-        <div class="jumbotron">
-          <h1 id=jumbo-text>Celebrating 20 years of quality service</h1>
+<div class="container-fluid text-center push-down">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
 
+
+
+<div class="well" id="textWell">
+  <p>Air Sea Land has been providing quality service since 1998!</p>
+</div>
+<div class="well" id="textWell">
+  <p>To learn more about how we can help you relocate, please call us at (212) 983 8886</p>
+</div>
+
+    </div>
+    <!-- End of sidebar -->
+    <div class="col-sm-8 text-left">
+  <div class = "container-fluid">
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+
+      </ol>
+
+      <div class = "carousel-inner">
+        <div class="item active">
+          <div class = "slide1"></div>
+          <div class = "carousel-caption">
+
+            <h1>Celebrating 20 Years of service!</h1>
+            <p></p>
+
+          </div>
         </div>
-
       </div>
-       <h1 id="title-text">Air Sea Land Travel</h1>
-       <hr>
-       <br>
-
-       <!--TESTING-->
-       <ul class="nav nav-pills">
-    <li class="active"><a data-toggle="pill" href="#home">Why ASL</a></li>
-    <!-- <li><a data-toggle="pill" href="#menu1">About Us</a></li> -->
-
-
-  </ul>
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2 class="mid-text">Why Air Sea Land Travel?</h2>
-
-
-           <section><p>Along with shipping and moving, Air Sea Land is also a specialist in Diplomatic travel and airline ticketing services. We work on consolidator contracts with major airlines, allowing us to pass on special discounted rates on international and domestic airfare to our clients.</p>
-           <p>Through the years we have mastered our craft of finding and booking the best prices for air line tickets and hotel rooms. We additionally, provide a vacation planing service in which you inform us on what you would want to do on your travels, and we make the bookings and travel arrangements for you! Consider us your own personal vacation planner. </p>
-         <p>To plan your perfect trip, call us at (212) 983 8886, or email us at: sales@airsealandinc.net. We hope to hear from you soon and make your next trip great!</p></section>
-
-
-
 
     </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2 class="mid-text">About Air Sea Land Travel</h2><br>
-      <section><p>Air Sea Land Shipping and Moving Inc. offers end-to-end moving services that ensure that our customers are taken care of every step of the way, regardless of the type or size of the shipment. Our staff handles every aspect of the move, from the initial packing all the way to delivery and unpacking at the final destination residence.</p>
-       <p>We are the trusted travel agency of many Missions, Consulates, and Embassies for Diplomatic conventions and meetings worldwide, as well as for Diplomat personal travel.</p>
-     <p>As always our travel services are backed by our experienced customer support team, ensuring a hassle-free travel experience every time.</p></section><br>
+        </div>
+<!-- End of the Top Image section -->
+
+        <!-- Heading -->
+      <h1 id="topHeading"><center>Air Sea Land Travel</center></h1>
+      <p><center>Offering Premium Travel and Vacation Packages</center></p>
+
+      <hr>
+<!-- End of Heading -->
+<!-- Start of main content -->
+
+<ul class="nav nav-pills">
+<li class="active"><a data-toggle="pill" href="#home">Why ASL</a></li>
+<!-- <li><a data-toggle="pill" href="#menu1">About Us</a></li> -->
+
+
+</ul>
+
+<div class="tab-content">
+<div id="home" class="tab-pane fade in active">
+<h2 class="mid-text">Why Air Sea Land Travel?</h2>
+
+
+    <section><p>Along with shipping and moving, Air Sea Land is also a specialist in Diplomatic travel and airline ticketing services. We work on consolidator contracts with major airlines, allowing us to pass on special discounted rates on international and domestic airfare to our clients.</p>
+    <p>Through the years we have mastered our craft of finding and booking the best prices for air line tickets and hotel rooms. We additionally, provide a vacation planing service in which you inform us on what you would want to do on your travels, and we make the bookings and travel arrangements for you! Consider us your own personal vacation planner. </p>
+  <p>To plan your perfect trip, call us at (212) 983 8886, or email us at: sales@airsealandinc.net. We hope to hear from you soon and make your next trip great!</p></section>
+
+
+
+
+</div>
+<div id="menu1" class="tab-pane fade">
+<h2 class="mid-text">About Air Sea Land Travel</h2><br>
+<section><p>Air Sea Land Shipping and Moving Inc. offers end-to-end moving services that ensure that our customers are taken care of every step of the way, regardless of the type or size of the shipment. Our staff handles every aspect of the move, from the initial packing all the way to delivery and unpacking at the final destination residence.</p>
+<p>We are the trusted travel agency of many Missions, Consulates, and Embassies for Diplomatic conventions and meetings worldwide, as well as for Diplomat personal travel.</p>
+<p>As always our travel services are backed by our experienced customer support team, ensuring a hassle-free travel experience every time.</p></section><br>
+</div>
+
+
+</div>
+
+
+<!-- End of main content -->
+<hr>
+      <br><br>
+      <!-- Start of the request a quote button -->
+      <hr>
+      <button type="button" id="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Request A Quote!</button>
+          <div id="demo" class="collapse">
+            <p><p/><center>
+            <form action="testNewMail.php" method="POST">
+<p>Name</p> <input type="text" name="name">
+<p>Email</p> <input type="text" name="email">
+<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input type="submit" value="Send"><input type="reset" value="Clear">
+</form></center>
+      </div><br></br>
+<!-- End of the request a quote area -->
     </div>
+    <div class="col-sm-2 sidenav">
+      <img src="/images/bbb-logo-comedy-guys-defensive-driving.png" width="65%" alt="betterbb-logo" title="bbb a+ rating" id="bbb-logo">
 
+     <br><br><br>
 
+      <img src="/images/IAM_Blue.jpg" width="65%" alt="IAM_logo" title="IAM" id="iam-logo">
+    </div>
   </div>
-
-       <!--END OF TESTING-->
-
-       <br>
-
-
-       <h2 class="mid-text">Request a Quote!</h2>
-       <button type="button" id="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Request A Quote</button>
-      <div id="demo" class="collapse">
-        <p></p><center>
-        <form action="testNewMail.php" method="POST">
-          <p>Name</p> <input type="text" name="name">
-          <p>Email</p> <input type="text" name="email">
-          <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-          <input type="submit" value="Send"><input type="reset" value="Clear">
-        </form></center>
-      </div>
-     </div>
-     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 side-bar"><!--SIDE BAR-->
-       <div class="container">
-         <img src="/images/bbb-logo-comedy-guys-defensive-driving.png" alt="betterbb-logo" title="bbb a+ rating" id="bbb-logo">
-       </div>
-        <br>
-       <div class="container">
-         <img src="/images/IAM_Blue.jpg" alt="IAM_logo" title="IAM" id="iam-logo">
-       </div>
-     </div>
-   </div>
- </div>
-
-
+</div>
 
 <footer class="container-fluid text-center">
   <p>Air Sea Land Group of Companies</p>
-  <p>211 East 43rd Street</p>
-  <p>NY, New York 10017</p>
-  <p>212 983 8886</p>
+  <p>211 East 43rd Steet, NY, New York 10017</p>
+  <p>(212) 983 8886 - sales@airsealandinc.net</p>
 </footer>
-
 </body>
 </html>

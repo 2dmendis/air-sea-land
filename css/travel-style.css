@@ -1,112 +1,86 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+   body{
+    background-color: #e5e1ce;
+  }
+  #topHeading{
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+  }
+  #textWell{
+    color: black;
+  }
+.topContent{
 
-/*////GENERAL////*/
-*{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
-
-
-/*////NAVBAR////*/
-.navbar {
-      margin-bottom: 0 !important;
+.push-down{
+    margin-top: 50px;
+  }
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 5px !important;
       border-radius: 0;
     }
-    
-    /*/////TEXT/////*/
-    
-    #title-text{
-      
-      text-align: center;
-      font-family: 'Libre Baskerville', serif;
-    }
-    #title-text:hover{
-      color: #94bdd6;
-    }
-    
-    #jumbo-text{
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      //background-color: #f1f1f1;
+      background-color: #30415d;
       color: white;
-    }
-    
-    
+      height: 220%;
 
-   /*////FOOTER////*/
-    /* Add a gray background color and some padding to the footer */
+    }
+
+    /* Set black background color, white text and some padding */
     footer {
-      background-color: #f2f2f2;
-      padding: 25px;
+      background-color: #555;
+      color: white;
+      padding: 15px;
     }
-    /*////CONTENT BARS////*/
-    .well{
-      margin-top: 20px;
-    }
-    .body-start{
-      margin-top: 50px !important;
-    }
-    .side-bar{
-      height: 1000px;
-      background: #003366 ;
-    }
-    .center-bar{
-      height: 1000px;
-    }
-    .clearfix:after{
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
 
-#bbb-logo{
-  width: 15%;
-  margin-top: 50px;
-}
-#iam-logo{
-  width: 15%;
-  margin-top: 50px;
-}
-/*/////CONTENT//////*/
-section{
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  padding: 8px;
-  
-}
-section:hover{
-  font-family: 'Comfortaa', cursive;
-  border-style: none;
-  background: #cbdfeb !important;
-}
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
 
-.mid-text{
-  text-align: center;
-  color: red;
-  font-family: 'Libre Baskerville', serif;
-}
-.mid-box{
-  text-align: center;
-    border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  padding: 5px;
-  margin: 5px;
-}
-.mid-box:hover{
-  border-style: none;
-  background: #cbdfeb !important;
-  font-family: 'Comfortaa', cursive;
-}
-.center-boxes{
-  text-align: center;
-}
-.jumbotron{
-  width: 75%;
-  background-image: url("/images/4012-freight-fowarder-industry.png");
+  .slide1{
+  background-image: url("/back-images/MountainInHills.jpg");
+  //background-color: blue;
+  background-color: #328cc1;
+  height: 250px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  color: white;
+
+}
+  .slide2{
+  background-image: url("/images/corpora");
+  background-color: #328cc1;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+      .btn-primary {
+    background: #67aeca;
+    color: #ffffff;
+      width:100%;
+}
+    .btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+
+}
+    .btn-primary:hover{
+    background: #ffffff;
+      color: #333;
 }
