@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+   body{
+    background-color: #e5e1ce;
+  }
+  #topHeading{
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+  }
+  #textWell{
+    color: black;
+  }
+.topContent{
+
+}
+.push-down{
+    margin-top: 50px;
+  }
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 5px !important;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      //background-color: #f1f1f1;
+      background-color: #30415d;
+      color: white;
+      height: 220%;
+
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+  .slide1{
+  background-image: url("/back-images/cardboard-boxes-background-2-750x406.jpg");
+  //background-color: blue;
+  background-color: #328cc1;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+  .slide2{
+  background-image: url("/images/corpora");
+  background-color: #328cc1;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+      .btn-primary {
+    background: #67aeca;
+    color: #ffffff;
+      width:100%;
+}
+    .btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+
+}
+    .btn-primary:hover{
+    background: #ffffff;
+      color: #333;
+}
+@media only screen and (max-width: 600px) {
+  #textWell{
+    display: none;
+  }
+  }
